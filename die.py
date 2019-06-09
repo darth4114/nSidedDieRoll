@@ -14,7 +14,9 @@ class Die():
 
 
 def ask_sides():
-
+    '''
+    Ask how many sides for dice. Can't accept an answer less than 4
+    '''
     while True:
         sides = int(input("How many sides is your die? "))
 
@@ -29,7 +31,9 @@ def ask_sides():
 
 
 def ask_roll():
-
+    '''
+    Asks how many times you want to roll the die/how many die to roll
+    '''
     while True:
         try:
             ans = int(input("\nHow many die do you want to roll? "))

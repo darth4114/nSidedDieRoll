@@ -1,3 +1,7 @@
+'''
+Roll X number of N sided dice
+'''
+
 import die as d
 
 print("Welcome to the Dice rolling app. You will be able to choose how many sides your dice have, and how many you are rolling.")
